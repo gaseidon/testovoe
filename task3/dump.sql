@@ -1,0 +1,7 @@
+CREATE TABLE visits (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ip VARCHAR(45) NOT NULL,
+    city VARCHAR(100),
+    device TEXT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
